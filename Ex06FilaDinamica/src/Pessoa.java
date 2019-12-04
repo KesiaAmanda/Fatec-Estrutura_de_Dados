@@ -35,6 +35,6 @@ public class Pessoa {
 	
 	@Override
 	public String toString() {
-		return "Nome: "+nome+" Email:"+email;
+		return "Nome:	"+nome+"	Email:	"+email;
 	}
 }

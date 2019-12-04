@@ -25,6 +25,17 @@ public class Fila {
 		return aux;
 	}
 	
+	public void AlteraElemento(Pessoa pessoa, String email) {
+		Pessoa aux = head;
+		while(aux!=null) {
+			if(aux.equals(pessoa)) {
+				aux.setEmail(email);
+				aux=null;
+			}
+			if(aux!=null) aux=aux.getProxima();
+		}
+	}
+	
 	public boolean filaVazia() {
 		return head==null;
 	}

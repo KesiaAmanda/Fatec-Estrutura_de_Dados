@@ -13,14 +13,24 @@ public class Principal {
 		f.EntraFila(p3);
 		f.EntraFila(p4);
 		
+		System.out.println("============\nTodos Elementos:");
+		
 		f.MostraTodos();
 		
-		System.out.println("============");
+		System.out.println("============\nSaiu da fila:");
 		
 		System.out.println(f.saiFila());
 		
-		System.out.println("============");
+		System.out.println("============\nTodos Elementos:");
 		
 		f.MostraTodos();
+		
+		System.out.println("============\nAltera Elemento:");
+		
+		f.alteraEmail(p2, "maria_madalena@gmail.com");
+		
+		f.MostraTodos();
+		
+		System.out.println("============");
 	}
 }

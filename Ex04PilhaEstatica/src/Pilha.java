@@ -34,7 +34,7 @@ public class Pilha {
 		return livros[0]==null;
 	}
 	
-	public void GarantaEspaco() {
+	private void GarantaEspaco() {
 		if(total==livros.length) {
 			Livro novaArray[] = new Livro[livros.length+5];	
 			

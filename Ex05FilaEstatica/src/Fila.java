@@ -24,6 +24,15 @@ public class Fila {
 		return aux;
 	}
 	
+	public void alteraEmail(Pessoa pessoa, String email) {
+		for(int i = 0; i<total;i++) {
+			if(filaPessoa[i].equals(pessoa)) {
+				filaPessoa[i].setEmail(email);
+				i=total;
+			}
+		}
+	}
+	
 	private boolean verificaFila() {
 		return total==MAX;
 	}

@@ -1,6 +1,7 @@
 
 public class Lista {
-	private int[] andares = new int[3];
+	private final int MAX = 3;
+	private int[] andares = new int[MAX];
 	private int total = 0;
 	
 	public void addLista(int pessoas) {
