@@ -52,7 +52,7 @@ public class Vetor {
 		return tamanho;
 	}
 	
-	public void garantaEspaco() {
+	private void garantaEspaco() {
 		if(tamanho == alunos.length) {
 			Object[] novaArray = new Object[alunos.length+10];
 			for(int i = 0; i<tamanho; i++) {
